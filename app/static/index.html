@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Quality AI | MLOps Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Wine Quality AI</h1>
+            <p>Production Inference Engine v1.0</p>
+        </header>
+
+        <form id="prediction-form">
+            <div class="grid">
+                <div class="input-group">
+                    <label>Volatile Acidity</label>
+                    <input type="number" step="0.01" name="volatile_acidity" value="0.7" required>
+                </div>
+                <div class="input-group">
+                    <label>Chlorides</label>
+                    <input type="number" step="0.001" name="chlorides" value="0.045" required>
+                </div>
+                <div class="input-group">
+                    <label>Density</label>
+                    <input type="number" step="0.0001" name="density" value="0.99" required>
+                </div>
+                <div class="input-group">
+                    <label>pH Level</label>
+                    <input type="number" step="0.1" name="pH" value="3.2" required>
+                </div>
+                <div class="input-group full-width">
+                    <label>Alcohol (%)</label>
+                    <input type="number" step="0.1" name="alcohol" value="10.5" required>
+                </div>
+            </div>
+            <button type="submit" id="submit-btn">Predict</button>
+        </form>
+
+        <div id="result-card" class="hidden">
+            <h3>Prediction Result</h3>
+            <div id="quality-label" class="">--</div>
+            <p id="latency">Inference Latency: <span>0</span>ms</p>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
