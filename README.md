@@ -204,5 +204,5 @@ locust -f locustfile.py --host http://localhost:8000 -u 1000 -r 50
 
 ---
 
-**👨‍💻 Author:** Ashutosh Kumar Rai | **📧 Contact:** [Your Email] | **🔗 LinkedIn:** [Your Profile]  
+**👨‍💻 Author:** Ashutosh Kumar Rai | **📧 Contact:** reactmeme252@gmail.com | **🔗 LinkedIn:** [LinkedIn](https://www.linkedin.com/in/ashutoshkr135/)
 **⭐ Star this repo** if you found it helpful! | **📄 License:** MIT
