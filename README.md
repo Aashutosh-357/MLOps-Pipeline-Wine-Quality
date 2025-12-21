@@ -8,7 +8,12 @@
 
 > **Enterprise-grade ML inference API** achieving **500+ RPS** with sub-200ms latency. Demonstrates production MLOps practices including async architecture, containerization, and performance optimization.
 
-**🚀 Live Demo:** [https://mlops-pipeline-wine-quality.onrender.com](https://mlops-pipeline-wine-quality.onrender.com) | **📄 API Docs:** [Swagger UI](https://mlops-pipeline-wine-quality.onrender.com/docs)
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-View_App-2ea44f?style=for-the-badge)](https://mlops-pipeline-wine-quality.onrender.com)
+[![API Docs](https://img.shields.io/badge/📄_API_Docs-Swagger_UI-0078D4?style=for-the-badge)](https://mlops-pipeline-wine-quality.onrender.com/docs)
+
+</div>
 
 ## 💼 Business Impact & Technical Achievements
 
